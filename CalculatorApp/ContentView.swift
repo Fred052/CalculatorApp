@@ -27,7 +27,6 @@ enum CalcButton: String {
     case decimal = ","
     case percent = "%"
     case negative = "+/-"
-    case positive = "A"
     
     var buttonColor: Color {
         switch self {
